@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicios</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('Digite seu nome completo:');
+        document.body.innerHTML += `o seu nome e: ${nome} <br/>`;
+        document.body.innerHTML +=`o seu nome tem ${nome.length} letras<br/>`;//quantidade de letras
+        document.body.innerHTML += `A segunda letra do seu nome é ${nome[1]}<br/>`;//pegando a segunda letra do nome
+        document.body.innerHTML += `Qual o primeiro indice da letra a no seu nome : ${nome.indexOf('a')}<br/>`;//pega a primeira letra a
+        document.body.innerHTML += `qual é o ultimo indice da letra a ${nome.lastIndexOf('a')}<br/>` ;//pega a ultima letra a
+        document.body.innerHTML += `as ultimas 3 letras do seu nome sao ${nome.slice(-3)}<br/>` ;//pega as ultimas 3 letras do nome
+        document.body.innerHTML +=`as palavras do seu nome sao ${nome.split(' ')}<br/>`;//fatia a string quando acha o parametro
+        document.body.innerHTML += `seu nome com letras maiusculas ${nome.toUpperCase()}<br/>`;//deixa a frase em maiusculo
+        document.body.innerHTML += `seu nome com letras minusculas ${nome.toLowerCase()}<br/>`;
+        </script>
+</body>
+</html>
