@@ -1,0 +1,13 @@
+div.teste{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: crimson 5px solid;
+}
+div.teste:hover{
+    background-color: crimson;
+    border: blueviolet 5px solid;
+    transform: rotateY(180deg);
+    transition: all 0.5s ease-out;
+}
