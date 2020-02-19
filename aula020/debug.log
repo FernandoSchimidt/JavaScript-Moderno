@@ -1,0 +1,1 @@
+[0219/172633.323:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1edc542e780 of 512 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
