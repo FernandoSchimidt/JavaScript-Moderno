@@ -14,6 +14,6 @@ function fizzBuzz(x) {
         }
     
 }
-for(let i = 0; i<=100; i++){
+for(let i = 02; i<=100; i++){
 console.log(i,fizzBuzz(i));
 }
