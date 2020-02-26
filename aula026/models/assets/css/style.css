@@ -1,13 +1,11 @@
 :root{
     --primary-color:rgb(13, 106, 134);
     --primary-color-darker:rgb(13,200,134);
-
 }
 
 *{
     box-sizing: border-box;
-    outline: none;
-    
+    outline: none;  
 }
 body{
     margin: 0;

@@ -12,6 +12,11 @@ function fizzBuzz(x) {
         return x;
     }
 }
+<<<<<<< HEAD
 for (let i = 0; i <= 100; i++) {
     console.log(i, fizzBuzz(i));
+=======
+for(let i = 02; i<=100; i++){
+console.log(i,fizzBuzz(i));
+>>>>>>> 25cbc6656bc62f4b2855596c8de7e76bdbed74fb
 }
